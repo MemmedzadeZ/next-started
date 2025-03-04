@@ -1,7 +1,7 @@
 import React from 'react'
 import { redirect } from 'next/navigation';
 
-const token = false;
+const token = true;
 
 const Home = () => {
   !token && redirect("/login")
